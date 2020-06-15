@@ -35,6 +35,13 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 
 Once you're done, submit the URL to your working project with all its tests passing.
 
-##########################################################################
+# Solution
+
+Tools Used:
+
+- Vanilla JavaScript
+- Bootstrap
+- JSON API Call
+- Font Awesome
 
 [View Project Demo](https://codepen.io/trishachi/full/ExPyzvo)
