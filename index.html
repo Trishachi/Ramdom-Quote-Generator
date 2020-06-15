@@ -11,24 +11,39 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="wrapper">
-      <div id="quote-box">
-        <div id="text">Random Quote goes here</div>
-        <div id="author">Author's name goes here</div>
-        <div id="interactions">
-          <a id="new-quote" href="" class="button">New Quote</a>
-          <a
-            id="tweet-quote"
-            class="twitter-share-button button"
-            href="https://twitter.com/intent/tweet?text=text"
-            target="_blank"
-            >Tweet</a
-          >
+      <div id="quote-box" class="card">
+        <h5 class="card-header">Random Quote Generator</h5>
+        <div class="card-body">
+          <blockquote class="blockquote">
+            <div id="text"></div>
+            <div id="author" class="blockquote-footer"></div>
+          </blockquote>
+          <div id="interactions">
+            <a id="new-quote" href="" class="btn btn-outline-primary"
+              >New Quote</a
+            >
+            <a
+              id="tweet-quote"
+              class="twitter-share-button btn btn-outline-primary"
+              href="https://twitter.com/intent/tweet?text=text"
+              target="_blank"
+              ><i class="fa fa-twitter" aria-hidden="true"></i> Tweet</a
+            >
+          </div>
         </div>
       </div>
-      <div class="footer">by Chisom Trisha Okoye</div>
+      <div class="footer"><em>&copy; Chisom Trisha Okoye</em></div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -1,13 +1,32 @@
 body {
-  background-color: aquamarine;
+  background-color: #57d7e8;
   display: flex;
   justify-content: center;
   text-align: center;
   height: 100vh;
+  font-family: "Montserrat", sans-serif;
 }
 
-/* #wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+#wrapper {
+  margin-top: 20%;
+}
+
+#text {
+  margin-bottom: 10px;
+}
+.card {
+  width: 50%;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+#quote-box {
+  width: 450px;
+}
+
+.footer {
+  margin: 15px auto 30px auto;
+  font-size: 12px;
+}
